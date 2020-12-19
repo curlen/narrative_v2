@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Digital Narrative - Curle, N Static Site</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Curle, N Static Site</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../digitalnarrative" class="nav-link">Digital Narrative</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../dita" class="nav-link">DITA</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../markdown" class="nav-link">Markdown</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#digital-narrative" class="nav-link">Digital Narrative</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#reverse-engineering" class="nav-link">Reverse Engineering</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#thinking-like-a-technical-communicator" class="nav-link">Thinking Like A Technical Communicator</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#reflection" class="nav-link">Reflection</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="digital-narrative">Digital Narrative</h1>
+<p>Over the course of the semester, we studied approaches to writing using  different digital technologies. Technical communication is a wide and varied field, and the different technologies we learned reflected the different types of writing that occur in the industry. I not only learned how to operate the different technologies, but also got to step into the shoes of a technical communicator and approach the technologies like they would. The following paragraphs will recount my journey this semester, highlight connections I've made between using technologies and writing, and how I've become a better digital communicator. </p>
+<h2 id="reverse-engineering">Reverse Engineering</h2>
+<p>Learning from other people's examples is a time-effective and reliable method that I have used many times when learning new tools. I applied this technique to great effect when learning two technologies this semester: HTML/CSS and DITA. For website creation using HTML and CSS, it was  initially difficult to envision a polished website when I didn't know the capabilities of those two languages. I could rely on my basic knowledge of different elements, but this wouldn't create a webpage that is rich in information and structure. So, with curiosity, I visited other websites to look at how they arranged different types of information with elements, and what relationships between specific parent and child elements existed. I used the "Inspect Element" feature liberally. After visiting a few websites and comparing their approaches to ensure that I wasn't encountering any web design anomalies, I started entering elements into my code editor. Sometimes they wouldn't work the way I had planned and I had to find other ways to write the code, but this only added to my learning.</p>
+<p>When we were learning DITA, I also entered with no experience writing in this language. Luckily I chose resources that contained good documentation and examples. I would never have known what a proper DITA document looked like without them. One area where I wanted to imitate the sample document which came with one of my software pieces was their inclusion of a related information area on certain pages that would guide readers to information they might find helpful. It turns out they used an element that I hadn't heard about, a related topic link. I added this to my document, and to my surprise underneath the link was a short blurb containing the short description from that DITA topic. I could then tell why the short description element for the topics was so important; the reader should know what the topic is about before they click on it and this information should be relevant in all instances across the document. Thus, applying another DITA author's techniques lead to making my document more helpful and taught me about the value in writing in a way that makes reusable content possible. </p>
+<h2 id="thinking-like-a-technical-communicator">Thinking Like A Technical Communicator</h2>
+<p>One of my biggest blind spots before this semester was the experience of working independently and within a team as a technical communicator. The processes, the aspects of teamwork and collaboration, and technology's influence on the entire thing were unknown to me. I think that the contents of the different modules did a great job of giving me a taste of the work of a hypothetical technical communicator. Before jumping immediately into designing a website for our client project, we had to carefully analyze the audience's needs and potential uses. The process that we followed ensured that every design decision we made was based on evidence. It was a long process, but it made for a better final design and instilled the value of approaching design with the audience at the front of my mind. The writing and planning process frequently involves working as a team, so I had to use my new writing technologies in a way so others could understand me and my writing. I learned the rules of DITA topics so that at some future point others could reuse my content in a variety of formats. When I was writing HTML and CSS, I used best practices that made the code easier to understand for me and other code writers, such as writing with semantics. It is a longer process, but it makes the content more accessible and gives it clearer meaning. All in all, learning digital technologies was as much about skill acquisition as it was about learning good practices when using them.</p>
+<h2 id="reflection">Reflection</h2>
+<p>Thinking back on the semester, it's clear that I have improved my digital literacy in the sense that I now know about more tools and I know how to use more of them. Some technologies, like HTML and CSS, are commonly used outside of technical communications but having that knowledge is applicable to many technical communication fields. Others, such as DITA, are primarily used by technical communicators. I think having that balance between knowledge of general and tailored tools gives me the skills to work in a multitude and settings makes me a more well-rounded technical communicator. The processes and technical jargon that I didn't know before makes me feel prepared for scenarios that may come my way, too. For example, the specific steps of setting up an audience analysis can be applied to any situation. Learning the language of technical communicators will be a benefit when I am working with others inside and outside of the technical communications sphere. I look forward to seeing where my knowledge of digital technologies and technical communications takes me.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
